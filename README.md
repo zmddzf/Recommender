@@ -1,6 +1,6 @@
 # 申公公推荐系统选校方案设计
 
-> **作者**：丁卓非
+> **作者**：Z F Ding
 >
 > **邮箱**：872573678@qq.com
 >
@@ -109,7 +109,7 @@
 
 * 实验结果入下图所示：
 
-  <img src="C:\Users\zmddzf\Desktop\学习\科研\申公公\推荐系统\recommend_v2.0\image\image-04.png" alt="image-20200808015644525" style="zoom:50%;" />
+  <img src=".\image\image-04.png" alt="image-20200808015644525" style="zoom:50%;" />
 
 #### 4.4 四次筛选（指标计算）
 
@@ -209,7 +209,7 @@
   * 神经网络层：使用孪生神经网络进行相似评分，该层包含了指标计算；
   * 对外接口层：与主程序交互，暴露RPC接口。
 
-<img src="C:\Users\zmddzf\Desktop\学习\科研\申公公\推荐系统\recommend_v2.0\image\image-05.png" alt="image-20200826002225095" style="zoom:50%;" />
+<img src=".\image\image-05.png" alt="image-20200826002225095" style="zoom:50%;" />
 
 * **业务逻辑**：
 
@@ -223,7 +223,7 @@
   * 推荐服务将结果通过连接传至主应用；
   * 主应用获取结果进行下一步操作。
 
-  <img src="C:\Users\zmddzf\Desktop\学习\科研\申公公\推荐系统\recommend_v2.0\image\image-06.png" alt="image-20200826004148340" style="zoom:50%;" />
+  <img src=".\image\image-06.png" alt="image-20200826004148340" style="zoom:50%;" />
 
 ### 3. 接口设计
 
@@ -314,7 +314,7 @@ data {
 
 0 -> ok
 
-<img src="C:\Users\zmddzf\Desktop\学习\科研\申公公\推荐系统\recommend_v2.0\image\image-07.png" alt="image-20200826012343083" style="zoom:50%;" />
+<img src=".\recommend_v2.0\image\image-07.png" alt="image-20200826012343083" style="zoom:50%;" />
 
 #### 3.2 主应用接口设计
 
