@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package recommend;
+
+service Recommender {
+    rpc recommend(userReq) returns (sysReponse) {};
+}
+
+message userReq {
+    string ug_level = 1;
+    string ug_major = 2;
+    string intended_country = 3;
+    float ug_gpa = 4;
+    float gre = 5;
+    float gmat = 6;
+    float toefl = 7;
+    float ielts = 8;
+    string marker = 9;
+}
+
+message ratio {
+    float partly_ratio = 1;
+    float total_ratio = 2;
+}
+
+message sysReponse {
+    int32 code = 1;
+    string msg = 2;
+    map<string, ratio> data = 3; 
+}

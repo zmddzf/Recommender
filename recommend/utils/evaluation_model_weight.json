@@ -1,0 +1,1 @@
+{"tier1": {"hard": 0.8, "soft": 0.2}, "tier2": {"school_level": 0.3, "gpa": 0.65, "eng": 0.05, "research": 0.25, "job": 0.25, "honor": 0.25, "exchange": 0.25}}
