@@ -17,10 +17,10 @@ Created on Thu Sep  3 00:52:49 2020
 数据库连接配置
 """
 # ***********连接配置***********
-db_ip = "gz-cynosdbmysql-grp-dlns7hud.sql.tencentcdb.com"  # ip地址
-db_port = "27124"  # 端口号
-username = "user001"  # 用户名
-password = "SGG@15sys!DB7"  # 密码
+db_ip = ""  # ip地址
+db_port = ""  # 端口号
+username = ""  # 用户名
+password = ""  # 密码
 database = "recommender"  # 数据库
 connection = "mysql+mysqlconnector://{}:{}@{}:{}/{}".format(username, password, db_ip, db_port, database)
 
